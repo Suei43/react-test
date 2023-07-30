@@ -10,19 +10,10 @@ export default function Navbar(){
     )
 }
 
-export function Body(){
-    const name = "Folarin"
+export function Footer(props){
     return(
         <div>
-            <h1>{name}</h1>
-        </div>
-    )
-}
-
-export function Footer(){
-    return(
-        <div>
-            <h1>Footer Part</h1>
+            <h1>Footer Part - {props.name}</h1>
         </div>
     )
 }
